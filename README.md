@@ -25,3 +25,10 @@
     * `git remote -v` : remote 연결 확인
 
 
+* `git pull`: repository를 local로 가져오기
+    1. 폴더 생성 후 들어가기
+    2. `git init`
+    3. `git remote add origin 연결할 repository 주소`
+    4. `git pull origin master`
+
+
