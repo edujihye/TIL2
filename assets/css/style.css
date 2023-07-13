@@ -1,0 +1,12 @@
+h1 {
+    color: magenta;
+}
+
+/* id를 만들어봅시다. */
+#oneandonly {
+    color: rgb(17, 73, 225);
+}
+
+.multiple {
+    background-color: rgb(226, 136, 226);
+}

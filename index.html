@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        h1 {
+            color: blue;
+        }
+        h2 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="oneandonly">HTML note taking</h1>
+
+    <h2 class="multiple">Grouping</h2>
+
+    <h3>pre태그</h3>
+    <pre>싸: 피의 밥은 맛있다.
+         피: 나도록 운동해야한다.
+    </pre>
+    <!-- 
+        a태그는 한줄 띄기가 반영이 안된다는 것을 보여줄려고!
+        a태그는 인라인이라서, 옆으로 쌓이하는 것을 보여줄려고 가져온 예시 
+    -->
+
+    <span>
+        1
+        싸: 피의 밤은 길다. 
+        피: 가난다.
+    </span>
+
+    <!-- markdown 형식의 하이퍼링크[]() -->
+    <!-- html 형식은 href="내가 이동할링크",contents 겉으로 보여줄 글 -->
+    <a href="https://www.samsung.com/sec/smartphones/all-smartphones/?galaxy-s&cid=sec_paid_ppc_google_f1h23-dm_ecommerce_searchad_text_pf_%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90_pfm&utm_source=google&utm_medium=searchad&utm_campaign=f1h23-dm&utm_term=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90&_AT=000202C801AD036F94E4&gad=1&gclid=Cj0KCQjwnrmlBhDHARIsADJ5b_kN12csEnp6ZCmxPYf7uwTmK_L7R_yqogWM0YvUlbQPDCeJ7WrJ7VIaAlfMEALw_wcB">
+        안녕
+    </a>
+
+    <h3>list 태그</h3>
+    <div>
+        <h4>순서가 있는 리스트 (ol)</h4>
+        <!-- 순서가 있는 리스트를 만들거라고 선언!! <ol> -->
+        <ol>
+            <!-- <li>로 아이템 추가 -->
+            <li>1번 리스트</li>
+            <li>2번 리스트</li>
+            <li>3번 리스트</li>
+        </ol>
+
+        <h4>순서가 없는 리스트 (ul)</h4>
+        <!-- 순서가 없는 리스트를 만들거라고 선언!! <ul> -->
+        <ul>
+            <!-- <li>로 아이템 추가 -->
+            <li>리스트</li>
+            <li>리스트</li>
+            <li>리스트</li>
+        </ul>
+    </div>
+    <h2 class="multiple">Embedded</h2>
+
+    <h3>img</h3>
+    <h4>웹에서 가져오기</h4>
+    <img src="https://res.heraldm.com/content/image/2022/05/13/20220513000104_0.jpg" width="40%;" alt="이준호">
+
+    <h4>로컬에서 경로 가져와보기</h4>
+    <!-- ./ : 나의 위치 -->
+    <!-- ../ : 상위폴더 위치 -->
+    <img src="../assets/img/junho.jpg" width="100px;" alt="junho">
+
+
+    <h2 class="multiple">form</h2>
+    <form action="" method>
+        <label for="password">아이디: </label>
+        <input type="text" id="password">
+    </form>
+    <hr>
+</body>
+</html>
